@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extentreports>
+    <configuration>
+        <encoding>UTF-8</encoding>
+        <documentTitle>My Custom Browser Title</documentTitle> <!-- This title will be displayed as browser title for the page -->
+        
+        <reportName> 
+       
+                    
+            <![CDATA[
+                   Automation Report  <img src='C:\Users\sdhanavath\Desktop\evoke\sanjay.jpg' />
+            ]]>
+        </reportName>
+        
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                .report-name > img {margin-left: 500px; margin-top: -70px  }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
